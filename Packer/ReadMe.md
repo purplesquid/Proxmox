@@ -1,3 +1,6 @@
+Creates a Debian 11 template in Proxmox using Packer  
+
+
 Preseed.cfg - selects Standard Debian packages and SSH server  
 
 line 55 - Add encrypted Root password (Ex: Use mkpasswd --method=SHA-512 --rounds=4096 which prompt to enter a password)  
