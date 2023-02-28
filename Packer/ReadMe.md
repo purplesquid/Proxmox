@@ -6,13 +6,18 @@ line 191 - add SSH key for Root user (after ssh-rsa)
 line 195 - add IP address of NTP server if needed  
 
 
-debian11.pkr.hcl  
+debian11.pkr.hcl - Update variables as needed  
 
+line 23 - Change VM disk size  
+line 28 - Change VM storage  
+line 38 - Change VM memory amount  
+line 43 - Update VLAN number or remove variable if not used  
+line 71 - Update network adapter  
 line 95 - Update Template name  
 line 101 - Add SSH passsword for cloud-init  
 
 
-cloud.cfg  
+cloud.cfg - Cloud init configuration file  
 
 line 78 - Add username if needed  
 line 79 - Add groups for user  
